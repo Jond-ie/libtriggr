@@ -103,3 +103,8 @@ Triggr (Anywhere). Disable the row when `TGTriggrAvailable()` is NO.
 
 Open an issue on the libtriggr repo. Triggr itself is closed source; libtriggr (this header, docs and examples)
 is free to use in any tweak, free or paid.
+
+## License
+
+The header, docs and examples are MIT (see [LICENSE](LICENSE)). Triggr itself is closed source; get it from
+[John's Repo](https://jond-ie.github.io/repo). Bugs and requests: [Jond-ie/triggr issues](https://github.com/Jond-ie/triggr/issues).
