@@ -95,6 +95,8 @@ Triggr (Anywhere). Disable the row when `TGTriggrAvailable()` is NO.
   dictionary entry.
 - **Identifiers are forever:** users' assignments point at them. Don't rename them between versions.
 - **Register early and every launch** (in `%ctor`). Registering the same identifier again updates its title.
+- **RootHide:** the library is at `jbroot("/usr/lib/libtriggr.dylib")` instead of `/var/jb/usr/lib/libtriggr.dylib`; build
+  your RootHide package with roothide/theos so the path is handled for you, or `dlopen` through `jbroot()`.
 - `places` on the info objects is reserved for a later version and not used yet.
 - Example tweak: [`Examples/HelloTriggr`](Examples/HelloTriggr) (one trigger, one action, a settings page with
   Configure via Triggr).
