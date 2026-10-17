@@ -1,0 +1,9 @@
+Package: com.example.hellotriggr
+Name: Hello Triggr
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Description: libtriggr example: one trigger, one action, Configure via Triggr.
+Maintainer: John d_ie
+Author: John d_ie
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.johndie.triggr
