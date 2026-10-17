@@ -99,12 +99,18 @@ Triggr (Anywhere). Disable the row when `TGTriggrAvailable()` is NO.
 - Example tweak: [`Examples/HelloTriggr`](Examples/HelloTriggr) (one trigger, one action, a settings page with
   Configure via Triggr).
 
+## Tweaks using libtriggr
+
+- **[BegoneCIA](https://jond-ie.github.io/repo/depictions/com.johndie.begonecia.html) 1.1.0**: Turn BegoneCIA On / Off / Toggle as Triggr actions (optional: loads libtriggr only when Triggr is installed).
+
+Using it in your tweak? Open an issue or PR to get listed.
+
 ## Questions and requests
 
-Open an issue on the libtriggr repo. Triggr itself is closed source; libtriggr (this header, docs and examples)
+Questions about the API: open an issue on this repo. Triggr bugs and requests: [Jond-ie/triggr issues](https://github.com/Jond-ie/triggr/issues). Triggr itself is closed source; libtriggr (this header, docs and examples)
 is free to use in any tweak, free or paid.
 
 ## License
 
 The header, docs and examples are MIT (see [LICENSE](LICENSE)). Triggr itself is closed source; get it from
-[John's Repo](https://jond-ie.github.io/repo). Bugs and requests: [Jond-ie/triggr issues](https://github.com/Jond-ie/triggr/issues).
+[John's Repo](https://jond-ie.github.io/repo).
