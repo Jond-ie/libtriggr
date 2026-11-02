@@ -3,7 +3,7 @@
 Let your tweak plug into **Triggr**: add your own triggers, add your own actions, and put a
 **"Configure via Triggr"** button in your settings. Everything runs on the device.
 
-If you remember Activator's `libactivator`, this is the same idea for modern rootless jailbreaks.
+If you remember Activator's `libactivator`, this is the same idea for modern Rootless and RootHide jailbreaks.
 
 - **Triggers**: your tweak says "this happened" (a double tap on your view, your tweak's event). Users pick what
   it runs in Triggr, from any of Triggr's actions or other tweaks' actions.
@@ -11,7 +11,7 @@ If you remember Activator's `libactivator`, this is the same idea for modern roo
   a charger plugged in, someone else's trigger…
 - **Configure via Triggr**: push Triggr's own picker from your settings, for one of your triggers.
 
-Requires Triggr 2.0 or newer (iOS 15+, rootless).
+Requires Triggr 2.0 or newer (iOS 15–27, Rootless or RootHide).
 
 ## Setup
 
